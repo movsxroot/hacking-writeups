@@ -9,6 +9,7 @@ Cela me permet d'utiliser ce nom de domaine localement au lieu de l'adresse IP.
 Je commence l’énumération par un scan NMAP, cela vas permettre de détecter les services en écoute sur la machine, j’utilise le flag ` A` qui englobe plusieurs flags intéressent *(détection de version, os, analyse par script, ect) , l*e flag ` p ` permet de tester tout les ports et non seulement les 1000 les plus populaire par défauts, ensuite je précise le flag  T4 qui permet d’augmenter le nombre de paquet envoyé par seconde.
 
   **Port 22 (SSH)** : Service OpenSSH 7.2p2. Rien de spécial à première vue, la version a l'air clean.
+  
   **Port 80 (HTTP)** : Un serveur Apache 2.4.18. C'est là que ça devient intéressant.
 
 ![image.png](img/image-1.png)
