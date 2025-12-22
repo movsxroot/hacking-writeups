@@ -42,8 +42,8 @@ Le problème, c'est que ces systèmes sont souvent vulnérables, surtout quand i
 
 En faisant quelques recherches sur **exploit db.com**, je tombe sur deux vulnérabilités intéressantes pour **SweetRice** :
 
-1. **Backup Disclosure** ([Exploit 40718](https://www.exploit db.com/exploits/40718)) : Cette faille permet d'accéder directement aux sauvegardes de la base de données MySQL et aux fichiers du site sans aucune authentification.
-2. **Arbitrary File Upload** ([Exploit 40716](https://www.exploit db.com/exploits/40716)) : Elle permet d'uploader n'importe quel fichier sur le serveur (très utile pour un reverse shell), mais elle nécessite des identifiants valides.
+1. **Backup Disclosure** (https://www.exploitdb.com/exploits/40718) : Cette faille permet d'accéder directement aux sauvegardes de la base de données MySQL et aux fichiers du site sans aucune authentification.
+2. **Arbitrary File Upload** (https://www.exploitdb.com/exploits/40716) : Elle permet d'uploader n'importe quel fichier sur le serveur (très utile pour un reverse shell), mais elle nécessite des identifiants valides.
 
 Je garde l'option de l'upload sous le coude et je me concentre d'abord sur l'accès aux backups pour essayer de récupérer des informations sensibles.
 
