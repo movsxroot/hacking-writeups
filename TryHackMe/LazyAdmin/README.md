@@ -1,6 +1,6 @@
 # LazyAdmin
 
-Pour faciliter l'accès à la cible, je commence par modifier mon fichier `/etc/hosts`. J'y ajoute l’adresse IP suivie de l’alias **`lazy admin.thm**.`
+Pour faciliter l'accès à la cible, je commence par modifier mon fichier `/etc/hosts`. J'y ajoute l’adresse IP suivie de l’alias `lazy admin.thm.`
 
 Cela me permet d'utiliser ce nom de domaine localement au lieu de l'adresse IP.
 
