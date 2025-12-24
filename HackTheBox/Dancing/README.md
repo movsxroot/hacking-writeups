@@ -10,7 +10,7 @@ Sur le port `445`, on trouve un service nommé `microsoft-ds` qui désigne le pr
 
 Il permet principalement d'accéder à des **fichiers** et des dossiers distants comme s'ils étaient locaux, de partager des **imprimantes** entre plusieurs postes et d'assurer la **communication** entre différents logiciels sur le réseau. C'est le langage standard pour faire discuter les ordinateurs Windows entre eux.
 
-Tout comme un serveur **`FTP**` permet parfois une connexion avec l'utilisateur `anonymous` sans mot de passe, le service **`SMB`** sur cette machine est configuré pour accepter les **"`Null Sessions`"**.
+Tout comme un serveur `FTP` permet parfois une connexion avec l'utilisateur `anonymous` sans mot de passe, le service `SMB` sur cette machine est configuré pour accepter les **"`Null Sessions`"**.
 
 Pour lister les partages disponibles, on utilise le flag **`-L`** (pour *List*). On peut alors omettre le mot de passe soit en utilisant le flag **`-N`** (pour *No password*), soit en appuyant simplement sur **Entrée** lors de la requête.
 
