@@ -13,6 +13,5 @@ Ce projet est avant tout un moyen pour moi de m'améliorer en pentesting. J'esp�
 
 ---
 
-En partageant mes résolutions, je cherche à affiner mes compétences en cybersécurité et à contribuer à la communauté.
 
 
