@@ -1,7 +1,5 @@
 # Dancing
 
-`SMB` est l’acronyme de `Sever Message Block` sont port par défaut est le `445`, ce protocole sert à **partager des ressources** sur un réseau. Il permet principalement d'accéder à des **fichiers** et des dossiers distants comme s'ils étaient locaux, de partager des **imprimantes** entre plusieurs postes et d'assurer la **communication** entre différents logiciels sur le réseau. C'est le langage standard pour faire discuter les ordinateurs Windows entre eux.
-
 J’effectue un scan nmap pour lister les services actif sur la cible, j’utilise le flag `-A` qui englobe plusieurs flags intéressent et le flag `-p-` qui permet de scanner tout les ports.
 
 ![image.png](img/image.png)
